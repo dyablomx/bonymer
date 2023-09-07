@@ -92,7 +92,7 @@ h2{
         position: absolute;
         z-index: 5;
         top: 250px;
-        left: 128px;
+        left: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -204,7 +204,7 @@ h2{
         position: absolute;
         z-index: 5;
         top: 278px;
-        left: 118px;
+        left: 139px;
         display: flex;
         justify-content: center;
         align-items: center;
