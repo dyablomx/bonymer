@@ -1,0 +1,605 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #000000!important;
+    font-family: Arial,Helvetica,sans-serif!important;
+    letter-spacing: 2px;
+}
+
+.bg-nav{
+    background-color: #706e6e!important;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover p{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.centrar{
+    justify-content: center;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.fancybox__content {
+    padding: 2px!important;
+}
+
+@keyframes slide{
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.logopt1,
+.logopt2,
+.btn-contrataciones{
+    animation: slide 1s ease-in-out;
+}
+
+/*texto btn whatsapp*/
+.shake.svelte-19dp4zf, .svelte-19dp4zf{
+    bottom: 40px!important;
+}
+
+.box.svelte-lyhjhx.svelte-lyhjhx.svelte-lyhjhx a{ 
+    display: none;
+}
+
+.titulos{
+    color: white!important;
+}
+
+.iconos:hover{
+    transform: scale(1.4);
+}
+
+/*Movil--*/
+@media screen and (min-width: 320px) and (max-width: 367px) {
+    .logo{
+        width: 150px;
+    }
+    h3{
+        font-size: 1.45rem!important;
+    }
+    .banner{
+        padding: 90px 0px 20px 0px;
+    }
+    .logopt1{
+        width: 300px;
+    }
+    .logopt2{
+        width: 300px;
+        position: absolute;
+        z-index: 3;
+        top: 187px;
+    }
+    .btn-contrataciones{
+        position: absolute;
+        z-index: 5;
+        top: 250px;
+        left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 110px;
+        height: 20px;
+        border: none;
+        background-color: #30C04F;
+    }
+
+    .btn-contrataciones:hover {
+        background-color: #2bac47;
+    }
+      
+    .svg-icon{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .btn-txt{
+        font-size: 8px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner2{
+        padding: 20px 0 5px 0;
+    }
+    
+    .reproductor{
+        border-radius: 20px;
+        width: 300px;
+        height: 390px;   
+    }
+
+    .video{
+        width: 300px;
+        height: 250px;
+        padding: 0;
+    }
+
+    .redes-sociales{
+        align-items: flex-end;
+    }
+
+    .justificar-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .justificar-redes h3{
+        font-size: 12px!important;
+    }
+
+    .col-separacion{
+        padding-top: 29px;
+    }
+
+    .iconos{
+        width: 30px;
+        height: auto;
+        padding-right: 7px;
+    }
+
+    h4{
+        font-size: 12px!important;
+    }
+
+    .creditos{
+        padding: 20px 5px 30px 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-evel{
+        margin-right: 55px;
+        width: 70px;
+    }
+    .footer{
+        color: white;
+        font-size: 9px;
+    }
+    .button.svelte-pb3e4p{
+        background-size: 40px 40px !important;
+    }
+}
+/*Movil-*/
+@media screen and (min-width: 368px) and (max-width: 575px) {
+    .logo{
+        width: 150px;
+    }
+    h3{
+        font-size: 1.45rem!important;
+    }
+    .banner{
+        padding: 90px 0px 20px 0px;
+    }
+    .logopt1{
+        width: 350px;
+    }
+    .logopt2{
+        width: 350px;
+        position: absolute;
+        z-index: 3;
+        top: 205px;
+    }
+    .btn-contrataciones{
+        position: absolute;
+        z-index: 5;
+        top: 278px;
+        left: 118px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 140px;
+        height: 25px;
+        border: none;
+        background-color: #30C04F;
+    }
+
+    .btn-contrataciones:hover {
+        background-color: #2bac47;
+    }
+      
+    .svg-icon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .btn-txt{
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner2{
+        padding: 20px 0 5px 0;
+    }
+    
+    .reproductor{
+        border-radius: 20px;
+        width: 350px;
+        height: 390px;   
+    }
+
+    .video{
+        width: 350px;
+        height: 270px;
+        padding: 0;
+    }
+
+    .redes-sociales{
+        align-items: flex-end;
+    }
+
+    .justificar-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .justificar-redes h3{
+        font-size: 12px!important;
+    }
+
+    .col-separacion{
+        padding-top: 29px;
+    }
+
+    .iconos{
+        width: 30px;
+        height: auto;
+        padding-right: 7px;
+    }
+
+    h4{
+        font-size: 12px!important;
+    }
+
+    .creditos{
+        padding: 20px 30px 30px 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-evel{
+        margin-right: 55px;
+        width: 70px;
+    }
+    .footer{
+        color: white;
+        font-size: 9px;
+    }
+    .button.svelte-pb3e4p{
+        background-size: 50px 50px !important;
+    }
+}
+
+/*Movil+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+/*Ipad*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo{
+        width: 150px;
+    }
+    h3{
+        font-size: 1.45rem!important;
+    }
+    .banner{
+        padding: 90px 0 50px 0;
+    }
+    .logopt1{
+        width: 630px;
+    }
+    .logopt2{
+        width: 615px;
+        position: absolute;
+        z-index: 3;
+        top: 300px;
+        left: 79px;
+    }
+    .btn-contrataciones{
+        position: absolute;
+        z-index: 5;
+        top: 441px;
+        left: 291px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 190px;
+        height: 35px;
+        border: none;
+        background-color: #30C04F;
+    }
+
+    .btn-contrataciones:hover {
+        background-color: #2bac47;
+    }
+      
+    .svg-icon{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .btn-txt{
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner2{
+        padding: 20px 0 30px 0;
+    }
+    
+    .reproductor{
+        border-radius: 20px;
+        width: 665px;
+        height: 390px;   
+    }
+
+    .video{
+        width: 665px;
+        height: 390px;
+        padding: 10px 0 10px 0;
+    }
+
+    .redes-sociales{
+        align-items: flex-end;
+    }
+
+    .justificar-redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .col-separacion{
+        padding-top: 29px;
+    }
+
+    .iconos{
+        width: 50px;
+        height: auto;
+        padding-right: 7px;
+    }
+
+    .creditos{
+        padding: 20px 30px 30px 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-evel{
+        margin-right: 98px;
+        width: 100px;
+    }
+    .footer{
+        color: white;
+        font-size: 12px;
+    }
+}
+/*Laptop*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    h3{
+        font-size: 1.45rem!important;
+    }
+    .logo{
+        width: 180px;
+    }
+    .banner{
+        padding: 100px 150px 50px 150px;
+    }
+    .logopt1{
+        width: 765px;
+    }
+    .logopt2{
+        width: 777px;
+        position: absolute;
+        z-index: 3;
+        top: 328px;
+        left: 289px;
+    }
+    .btn-contrataciones{
+        position: absolute;
+        z-index: 5;
+        top: 507px;
+        left: 575px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        background-color: #30C04F;
+    }
+
+    .btn-contrataciones:hover {
+        background-color: #2bac47;
+    }
+      
+    .svg-icon{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .btn-txt{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner2{
+        padding: 50px 0 50px 0;
+    }
+    
+    .reproductor{
+        border-radius: 20px;
+        width: 1065px;
+        height: 490px;    
+    }
+
+    .video{
+        width: 720px;
+        height: 420px;
+        padding: 10px 0 10px 0;
+    }
+
+    .redes-sociales{
+        align-items: flex-end;
+    }
+
+    .justificar-redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .col-separacion{
+        padding-top: 29px;
+    }
+
+    .iconos{
+        width: 50px;
+        height: auto;
+        padding-right: 7px;
+    }
+
+    .creditos{
+        padding: 50px 100px 50px 100px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-evel{
+        margin-right: 98px;
+        width: 100px;
+    }
+    .footer{
+        color: white;
+        font-size: 15px;
+    }
+}
+/*PC*/
+@media (min-width: 1440px) {
+    .logo{
+        width: 200px;
+    }
+    .banner{
+        padding: 130px 300px 50px 300px;
+    }
+    .logopt1{
+        width: 1150px;
+    }
+    .logopt2{
+        width: 1134px;
+        position: absolute;
+        z-index: 3;
+        top: 500px;
+        left: 450px;
+    }
+    .btn-contrataciones{
+        position: absolute;
+        z-index: 5;
+        top: 755px;
+        left: 874px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 300px;
+        height: 60px;
+        border: none;
+        background-color: #30C04F;
+    }
+
+    .btn-contrataciones:hover {
+        background-color: #2bac47;
+      }
+      
+    .svg-icon{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .btn-txt{
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner2{
+        padding: 50px 0 50px 0;
+    }
+    
+    .reproductor{
+        border-radius: 20px;
+        width: 1065px;
+        height: 490px;    
+    }
+
+    .video{
+        width: 720px;
+        height: 420px;
+        padding: 10px 0 10px 0;
+    }
+
+    .redes-sociales{
+        align-items: flex-end;
+    }
+
+    .justificar-redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .col-separacion{
+        padding-top: 29px;
+    }
+
+    .iconos{
+        width: 70px;
+        height: auto;
+        padding-right: 7px;
+    }
+
+    .creditos{
+        padding: 50px 100px 50px 100px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-evel{
+        margin-right: 90px;
+        width: 120px;
+    }
+
+    .footer{
+        color: white;
+        font-size: 22px;
+    }
+}
