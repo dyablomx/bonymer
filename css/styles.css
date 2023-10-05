@@ -32,6 +32,12 @@ h2{
     align-items: center;
 }
 
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/corazon-diamante.jpg) no-repeat center top/cover;
+    color: white;
+    background-attachment: fixed;
+}
+
 .grid{
     display: grid;
 }
